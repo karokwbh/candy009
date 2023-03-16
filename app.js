@@ -3,7 +3,7 @@
 // 題目：移除網址中的錨點（Anchor）
 
 function removeAnchor(url) {
-    // 實作寫在這裡
+    return url.split("#")[0];
 }
 
 console.log(removeAnchor("5xruby.tw")) // 印出 5xruby.tw
